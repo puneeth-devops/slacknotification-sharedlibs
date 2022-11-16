@@ -23,5 +23,5 @@ def call(String buildStatus = 'STARTED') {
   }
 
   // Calling the slackSend function to Send notifications.
-  slackSend (color: colorCode, message: summary, channel: 'devopsmethodology')
+  slackSend (color: colorCode, message: summary, channel: 'channel2')
 }
